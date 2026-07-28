@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
+<template id="__bundler_thumbnail" data-bg-color="#141414">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#141414"/><defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#6ec8e8"/><stop offset="0.5" stop-color="#8f7bf7"/><stop offset="1" stop-color="#c86bd8"/></linearGradient></defs><path d="M78 60h74l-22 80H56z" fill="url(#g)"/><text x="100" y="112" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" font-style="italic" fill="#f5f5f3" text-anchor="middle">SMP</text></svg>
+</template>
 </head>
 <body>
 <x-dc>
@@ -13,9 +16,7 @@
 <style>
   @font-face {
     font-family: 'Nulshock';
-    src: url('./fonts/nulshock-bd.otf') format('opentype'),
-         url('./fonts/nulshock-bd.ttf') format('truetype'),
-         url('./fonts/nulshock-bd.woff2') format('woff2');
+    src: url('./fonts/nulshock-bd.otf') format('opentype');
     font-weight: 700;
     font-display: swap;
   }
@@ -63,18 +64,14 @@
         HOW IT WORKS
       </div>
       <div style="font-size: clamp(15px, 2vw, 26px); line-height: 1.65; letter-spacing: 0.01em; text-wrap: pretty;">
-        I SHOW UP, SHOOT YOUR BUSINESS FOR A DAY, AND HAND YOU BACK A MONTH OF READY-TO-POST SHORT-FORM VIDEO. NO DECKS, NO STRATEGY CALLS, NO LEARNING CURVE — JUST <span style="color: #6ec8e8;">CONTENT IN YOUR HANDS</span>.
+        I SHOW UP, FILM CONTENT FOR YOUR BUSINESS FOR A DAY, AND HAND YOU BACK A MONTH OF READY-TO-POST SHORT-FORM VIDEO. NO DECKS, NO STRATEGY CALLS, NO LEARNING CURVE JUST <span style="color: #6ec8e8;">CONTENT IN YOUR HANDS</span>.
       </div>
     </div>
   </div>
 
   <!-- INTRO / SERVICES INDEX -->
-  <div id="information" style="background: #f2f2f0; color: #141414; padding: clamp(56px,9vw,100px) clamp(20px, 5vw, 60px) clamp(40px,6vw,70px);">
-    <div style="max-width: 1200px; font-size: clamp(15px, 1.85vw, 25px); font-weight: 700; line-height: 1.45; letter-spacing: -0.01em;">
-      <span style="display: inline-block; width: 12px; height: 12px; background: #6b4de6; margin-right: 14px; vertical-align: middle;"></span>
-      SMP DIGITAL MEDIA IS A SOCIAL MEDIA MARKETING AGENCY DEDICATED TO HELPING BUSINESSES AND INDIVIDUALS WORLDWIDE GROW, ENGAGE, AND THRIVE ONLINE. SPECIALIZING IN CRAFTING TAILORED STRATEGIES FOR STARTUPS, ENTREPRENEURS, AND ESTABLISHED BRANDS, WE BRING YOUR VISION TO LIFE WITH INNOVATIVE CONTENT, DATA-DRIVEN INSIGHTS, AND IMPACTFUL STORYTELLING.
-    </div>
-    <div style="margin-top: 70px; font-size: 12px; letter-spacing: 0.06em; color: #6b4de6;">SERVICES INDEX ▼</div>
+  <div id="information" style="background: #f2f2f0; color: #141414; padding: 22px clamp(20px, 5vw, 60px);">
+    <div style="margin-top: 0; font-size: clamp(14px, 1.5vw, 18px); letter-spacing: 0.06em; color: #6b4de6;">SERVICES INDEX ▼</div>
   </div>
 
   <!-- SERVICE 01 -->
